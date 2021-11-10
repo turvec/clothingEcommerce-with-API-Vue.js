@@ -60,7 +60,7 @@
           <!-- banner statistics end -->
 
           <!-- featured category area start -->
-          <Arrival/>
+          <Arrival />
           <!-- featured category area end -->
         </div>
         <!-- main wrapper end -->

@@ -13,9 +13,9 @@
                             <p v-if="loading == true">loading . . .</p>
 
                             <li v-else  v-for="(category, index) in categories" :key="index">
-                                <a href="shop-grid-left-sidebar.html">
-                                    <i class="fa fa-desktop"></i>{{category}}
-                                </a>
+                                <router-link :to="'/shop-category/' + category">
+                                <i class="fa fa-desktop"></i>{{category}}
+                                </router-link>
                             </li>
                             
                         </ul>

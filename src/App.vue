@@ -24,26 +24,15 @@
                   <ul>
                     <li>
                       <div class="dropdown header-top-dropdown">
-                        <a
-                          class="dropdown-toggle"
-                          id="myaccount"
-                          data-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false"
-                        >
+                        <a class="dropdown-toggle" id="myaccount" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
                           my account
                           <i class="fa fa-angle-down"></i>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="myaccount">
-                          <a class="dropdown-item" href="my-account.html"
-                            >my account</a
-                          >
-                          <a class="dropdown-item" href="login-register.html"
-                            >login</a
-                          >
-                          <a class="dropdown-item" href="login-register.html"
-                            >register</a
-                          >
+                          <a class="dropdown-item" href="my-account.html">my account</a>
+                          <a class="dropdown-item" href="login-register.html">login</a>
+                          <a class="dropdown-item" href="login-register.html">register</a>
                         </div>
                       </div>
                     </li>
@@ -66,13 +55,11 @@
       <!-- header top end -->
 
       <!-- header middle start -->
-      <div
-        class="
+      <div class="
           header-middle-area header-middle-style-2
           pt-20
           pb-20 pb-md-0 pb-sm-0
-        "
-      >
+        ">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-3">
@@ -145,23 +132,30 @@
                         <a href="#">
                           <i class="fa fa-home"></i>Home
                         </a>
-                        
+
                       </li>
                       <li class="static">
                         <a href="#">
-                          My account
-                          
+                          My account<i class="fa fa-angle-down"></i>
+
                         </a>
-                        
+                        <ul class="dropdown">
+                          <li>
+                             <router-link to="/login">Login</router-link>
+                          </li>
+                          <li>
+                             <router-link to="/create-account">Create Account</router-link>
+                          </li>
+                        </ul>
+
                       </li>
                       <li>
-                        <a href="#">
-                          shop
-                         
-                        </a>
-                        
+                        <router-link to="/Shop">
+                          Shop
+                        </router-link>
+
                       </li>
-                      
+
                       <li>
                         <a href="contact-us.html">Contact us</a>
                       </li>
@@ -203,9 +197,7 @@
                         </div>
                         <div class="cart-info">
                           <h4>
-                            <a href="product-details.html"
-                              >virtual product 10</a
-                            >
+                            <a href="product-details.html">virtual product 10</a>
                           </h4>
                           <span>$50.00</span>
                         </div>
@@ -235,8 +227,8 @@
     </header>
     <!-- header area end -->
 
-    <router-view/>
-    
+    <router-view />
+
 
     <!-- footer area start -->
     <footer>
@@ -256,12 +248,7 @@
               </div>
               <div class="newsletter__box">
                 <form id="mc-form">
-                  <input
-                    type="email"
-                    id="mc-email"
-                    autocomplete="off"
-                    placeholder="Email"
-                  />
+                  <input type="email" id="mc-email" autocomplete="off" placeholder="Email" />
                   <button id="mc-submit">subscribe!</button>
                 </form>
               </div>
@@ -277,44 +264,19 @@
               <!-- mailchimp-alerts end -->
             </div>
             <div class="social-icons">
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Facebook"
-              >
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Twitter"
-              >
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Instagram"
-              >
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram">
                 <i class="fa fa-instagram"></i>
               </a>
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Google-plus"
-              >
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Google-plus">
                 <i class="fa fa-google-plus"></i>
               </a>
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Youtube"
-              >
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube">
                 <i class="fa fa-youtube"></i>
               </a>
             </div>
@@ -341,9 +303,7 @@
                       Tringi Aliquam Vitae. New York
                     </li>
                   </ul>
-                  <a class="map-btn" href="contact-us.html"
-                    >open in google map</a
-                  >
+                  <a class="map-btn" href="contact-us.html">open in google map</a>
                 </div>
               </div>
               <!-- single widget end -->
@@ -444,9 +404,7 @@
           <div class="footer-bottom-wrap">
             <div class="copyright-text">
               <p>
-                <a target="_blank" href="https://www.templateshub.net"
-                  >Templates Hub</a
-                >
+                <a target="_blank" href="https://www.templateshub.net">Templates Hub</a>
               </p>
             </div>
             <div class="payment-method-img">
@@ -460,4 +418,3 @@
     <!-- footer area end -->
   </div>
 </template>
-
