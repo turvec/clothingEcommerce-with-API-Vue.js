@@ -49,9 +49,6 @@
             <span class="good">
               <i class="fa fa-star"></i>
             </span>
-            <span>
-              <i class="fa fa-star"></i>
-            </span>
             <div class="pro-review">
               <span>1 review(s)</span>
             </div>
